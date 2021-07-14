@@ -6,138 +6,140 @@ body {
 /*--- for larger device like laptop---*/
 /*---header---*/
 
+.container {
+  width: 1440px;
+  height: 677px;
+  background-color: #2d25a0;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+.container:hover {
+  background-color: rgba(216, 43, 28, 0.657);
+  transition: all 1s ease-in;
+}
+.left {
+  position: absolute;
+  top: 207px;
+  left: 156px;
+  color: #ffffff;
+}
+.left h2 {
+  font-size: 64px;
+  line-height: 80px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.right img {
+  width: 556px;
+  height: 438px;
+  position: absolute;
+  left: 743px;
+  top: 135px;
+}
+a {
+  display: inline-block;
+  width: 168px;
+  height: 34px;
+  color: #ffffff;
+  background-color: #e02c6d;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-top: 17px;
+  text-align: center;
+  padding-top: 10px;
+}
+/*---"main" starts from the next line---*/
 
-  .container {
-    width: 1440px;
-    height: 677px;
-    background-color: #2d25a0;
-    margin: 0 auto;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 70px;
-  }
-  .left {
-    position: absolute;
-    top: 207px;
-    left: 156px;
-    color: #ffffff;
-  }
-  .left h2 {
-    font-size: 64px;
-    line-height: 80px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-  .right img {
-    width: 556px;
-    height: 438px;
-    position: absolute;
-    left: 743px;
-    top: 135px;
-  }
-  a {
-    display: inline-block;
-    width: 168px;
-    height: 34px;
-    color: #ffffff;
-    background-color: #e02c6d;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-    margin-top: 17px;
-    text-align: center;
-    padding-top: 10px;
-  }
-  /*---"main" starts from the next line---*/
+.player-profile {
+  width: 300px;
+  height: 444px;
+  padding: 15px;
+  margin-bottom: 27px;
+  box-shadow: 0px 0px 5px lightgray;
+}
+#player-profile {
+  margin-bottom: 130px;
+}
+.player-profile h3 {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 700;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+.player-profile p {
+  width: 300px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6c6c6c;
+  margin-top: 0px;
+}
+.player-profile img {
+  width: 300px;
+  height: 256px;
+}
+.players-collection {
+  width: 1050px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/*-----Footer Section-----*/
 
-  .player-profile {
-    width: 300px;
-    height: 444px;
-    padding: 15px;
-    margin-bottom: 27px;
-    box-shadow: 0px 0px 5px lightgray;
-  }
-  #player-profile {
-    margin-bottom: 130px;
-  }
-  .player-profile h3 {
-    font-size: 28px;
-    line-height: 40px;
-    font-weight: 700;
-    margin: 0px;
-    padding-bottom: 10px;
-  }
-  .player-profile p {
-    width: 300px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    color: #6c6c6c;
-    margin-top: 0px;
-  }
-  .player-profile img {
-    width: 300px;
-    height: 256px;
-  }
-  .players-collection {
-    width: 1050px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  /*-----Footer Section-----*/
-
-  footer .container-one {
-    width: 1440px;
-    height: 213px;
-    margin: 0 auto;
-    position: relative;
-  }
-  footer .images img {
-    width: 483.87px;
-    height: 110px;
-    position: absolute;
-    left: 475px;
-  }
-  footer .container-one .instagram img {
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    top: 130px;
-    left: 723.94px;
-  }
-  footer .container-one .twitter img {
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    top: 130px;
-    left: 631.94px;
-  }
-  footer .container-one .dribbble img {
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    top: 130px;
-    left: 677.94px;
-  }
-  footer .container-one .youtube img {
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    top: 130px;
-    left: 769.94px;
-  }
-  footer .container-one .copyright {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 400;
-    position: absolute;
-    top: 182px;
-    left: 598.94px;
-  }
-
+footer .container-one {
+  width: 1440px;
+  height: 213px;
+  margin: 0 auto;
+  position: relative;
+}
+footer .images img {
+  width: 483.87px;
+  height: 110px;
+  position: absolute;
+  left: 475px;
+}
+footer .container-one .instagram img {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 130px;
+  left: 723.94px;
+}
+footer .container-one .twitter img {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 130px;
+  left: 631.94px;
+}
+footer .container-one .dribbble img {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 130px;
+  left: 677.94px;
+}
+footer .container-one .youtube img {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 130px;
+  left: 769.94px;
+}
+footer .container-one .copyright {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  top: 182px;
+  left: 598.94px;
+}
 
 /*---media screen---*/
 /*---mobile---*/
@@ -237,10 +239,10 @@ body {
     margin-bottom: 0px;
   }
 
-  #extra{
+  #extra {
     display: none;
   }
-  
+
   /*---Footer starts here---*/
   footer {
     width: 100vw;
@@ -391,7 +393,7 @@ body {
     height: 130px;
   }
 
-  #extra{
+  #extra {
     display: none;
   }
 
@@ -452,7 +454,7 @@ body {
 
 /*-- extra --*/
 
-.container-two{
+.container-two {
   width: 1040px;
   height: 220px;
   margin-top: 0px;
@@ -462,13 +464,13 @@ body {
   background-color: black;
   position: relative;
 }
-#main-text{
+#main-text {
   position: absolute;
   top: 10px;
   left: 420px;
   color: white;
 }
-.part-1{
+.part-1 {
   width: 30px;
   height: 100px;
   position: absolute;
@@ -476,7 +478,7 @@ body {
   left: 0;
   background-color: red;
 }
-.part-2{
+.part-2 {
   width: 30px;
   height: 100px;
   position: absolute;
@@ -484,37 +486,37 @@ body {
   right: 0;
   background-color: #2d25a0;
 }
-#text{
+#text {
   position: absolute;
   top: 60px;
   left: 60px;
   color: #ffffff;
 }
-#orange{
+#orange {
   position: absolute;
   top: 95px;
   left: 60px;
   color: orange;
 }
-#place{
+#place {
   position: absolute;
   top: 117px;
   left: 60px;
   color: white;
 }
-#text-right{
+#text-right {
   position: absolute;
   top: 60px;
   right: 60px;
   color: #ffffff;
 }
-#orange-right{
+#orange-right {
   position: absolute;
   top: 95px;
   right: 60px;
   color: orange;
 }
-#place-right{
+#place-right {
   position: absolute;
   top: 117px;
   right: 60px;
