@@ -136,7 +136,7 @@ footer .container-one .copyright{
 /*---media screen---*/
 /*---mobile---*/
 
-@media only screen and (max-width:688px){
+@media (max-width:688px){
   *{
     margin: 0;
     padding: 0;
@@ -149,19 +149,21 @@ footer .container-one .copyright{
   }
   header{
     width: 100vw;
+    min-height: 100vh;
   }
   header .change .container{
     width: 100vw;
-    
+    min-height: 100vh;
     margin-left: 0px;
     display: grid;
-    grid-template-columns: 1fr;
-    
+    grid-template-columns: repeat(1,1fr);
+    background-color: red;
     margin: 0;
     
     }
   .left{
    left: 16px;
+   right: auto;
     top: 0px;
   }
   .left h2{
@@ -181,14 +183,19 @@ footer .container-one .copyright{
     padding: 0;
     
   
-    left: 0px;
+    left: 16px;
+    right: auto;
     top: 374px;
     
   }
   a{
     margin-top: 30px;
   }
-  main .players-collection{
+  main,footer{
+    display: none;
+  }
+}
+  /*main .players-collection{
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 24px;
@@ -224,7 +231,7 @@ footer .container-one .copyright{
     display: none;
   }
 
-}
+}*/
 
 /*--------------------------------
 
@@ -287,7 +294,7 @@ footer .container-one .copyright{
     margin-left: 20px;
     display: grid;
 
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(2,1fr);
     grid-row-gap: 15px;
     grid-column-gap: 10px;
     place-content: center;
