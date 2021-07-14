@@ -136,7 +136,9 @@ footer .container-one .copyright{
 /*---media screen---*/
 /*---mobile---*/
 
-@media (max-width:688px){
+@media only screen and (max-width:688px) {
+  
+
   *{
     margin: 0;
     padding: 0;
@@ -159,10 +161,13 @@ footer .container-one .copyright{
     margin-left: 0px;
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    place-items: center;
+    place-content: center;
     background-color: red;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     
     }
   .left{
@@ -185,12 +190,9 @@ footer .container-one .copyright{
     width: 329px;
     height: 259.17px;
     padding: 0;
-    
-  
     left: 16px;
     right: auto;
-    top: 374px;
-    
+    top: 374px; 
   }
   a{
     margin-top: 30px;
@@ -198,8 +200,9 @@ footer .container-one .copyright{
   footer{
     display: none;
   }
-}
+
   main .players-collection{
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 24px;
@@ -234,7 +237,7 @@ footer .container-one .copyright{
   footer{
     display: none;
   }
-
+}
 
 
 /*--------------------------------
