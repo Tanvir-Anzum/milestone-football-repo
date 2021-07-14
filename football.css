@@ -253,51 +253,62 @@ footer .container-one .copyright{
     padding: 0;
     box-sizing: border-box;
   }
-  header,footer{
+  footer{
     display: none;
   }
-  /*header .change .container{
-    width: 360px;
-    height: 695px;
-    margin-left: 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-    margin: 0;
-    padding: 0;
-    }
-  .left{
-    left: 10px;
-    top: 0px;
+  body{
+    width: 100vw;
   }
-  .left h2{
-    font-size: 36px;
-    line-height: 50px;
-    font-weight: 700;
-    margin-top: 112px;
-  }
-  
-  .right{
-     width: 329px;
-    height: 259.17px;
-  }
-  .right img{
-    margin-left: 15px;
-    padding: 0;
-    width: 329px;
-    height: 259.17px;
-    left: 0px;
-    top: 374px;
-    
-  }
-  a{
-    margin-top: 30px;
-  } */
   main{
-    width: 768px;
+    width: 100%;
   }
+  .container{
+ width: 100%;
+min-height: 65vh;
+ background-color: #2d25a0;
+ 
+ position: relative;
+ display: flex;
+ flex-direction: row;
+ margin-bottom: 70px;
+}
+.left{
+ position: absolute;
+ top: 230px;
+ left: 40px;
+ 
+ color: #ffffff;
+}
+.left h2{
+ font-size: 36px;
+ line-height: 56px;
+ margin-bottom: 0px;
+ margin-top: 0px;
+}
+ .right img{
+ width: 326px;
+ height: 288px;
+ position: absolute;
+left: 400px;
+top: 195px;
+ 
+}
+a{
+ display: inline-block;
+ width: 168px;
+ height: 34px;
+ color: #ffffff;
+ background-color: #e02c6d;
+ text-decoration: none;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 500;
+ margin-top: 17px;
+ text-align: center;
+ padding-top: 10px;
+}
   main .players-collection{
-    width: 50%;
+    width: 100%;
     margin-left: 20px;
     display: grid;
 
@@ -307,8 +318,8 @@ footer .container-one .copyright{
     place-content: center;
   }
   main .player-profile{
-    width: 80px;
-    height: 156px;
+    width: 185px;
+    height: 318px;
     padding: 0px;
     margin: 4px;
     margin-left: 4px;
@@ -316,21 +327,21 @@ footer .container-one .copyright{
    
   }
     main .player-profile p{
-      width: 80px;
+      width: 185px;
     
-      font-size: 10px;
-      line-height: 15px;
+      font-size: 18px;
+      line-height: 26px;
     }
     
   main .player-profile h3{
-      width: 80px;
-      font-size: 16px;
-      line-height: 21px;
+      width: 185px;
+      font-size: 26px;
+      line-height: 34px;
     }
     
   main .player-profile img{
-    width: 80px;
-    height: 66px;
+    width: 185px;
+    height: 130px;
   }
   footer{
     display: none;
