@@ -399,7 +399,7 @@ body {
 
   footer {
     width: 100vw;
-    min-height: 65vh;
+    min-height: 25vh;
   }
   footer .container-one {
     width: 100%;
