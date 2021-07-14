@@ -156,12 +156,12 @@ footer .container-one .copyright{
     margin-left: 0px;
     display: grid;
     grid-template-columns: 1fr;
-    padding-left: 156px;
+    
     margin: 0;
     
     }
   .left{
-    right: 66px;
+   left: 16px;
     top: 0px;
   }
   .left h2{
@@ -176,11 +176,11 @@ footer .container-one .copyright{
     height: 259.17px;
   }
   .right img{
-    margin-left: 329px;
+    width: 329px;
     height: 259.17px;
     padding: 0;
-    width: 3px;
-    height: 259.17px;
+    
+  
     left: 0px;
     top: 374px;
     
