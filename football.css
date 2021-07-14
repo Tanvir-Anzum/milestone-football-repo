@@ -1,6 +1,10 @@
+/*---styles start from here---*/
+
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+/*---header---*/
 .container {
   width: 1440px;
   height: 677px;
@@ -44,6 +48,8 @@ a {
   text-align: center;
   padding-top: 10px;
 }
+/*---"main" starts from the next line---*/
+
 .player-profile {
   width: 300px;
   height: 444px;
@@ -87,7 +93,6 @@ footer .container-one {
   margin: 0 auto;
   position: relative;
 }
-
 footer .images img {
   width: 483.87px;
   height: 110px;
@@ -146,6 +151,8 @@ footer .container-one .copyright {
     padding: 0;
     box-sizing: border-box;
   }
+  /*--header for mobile devices--*/
+
   header {
     width: 100vw;
     min-height: 100vh;
@@ -189,6 +196,8 @@ footer .container-one .copyright {
   a {
     margin-top: 30px;
   }
+  /*--"main" for mobile devices--*/
+
   main .players-collection {
     width: 100%;
     display: grid;
@@ -206,7 +215,6 @@ footer .container-one .copyright {
   }
   main .player-profile p {
     width: 300px;
-
     font-size: 16px;
     line-height: 26px;
   }
@@ -221,14 +229,17 @@ footer .container-one .copyright {
     width: 300px;
     height: 256px;
   }
+  #player-12 {
+    margin-bottom: 0px;
+  }
   /*---Footer starts here---*/
   footer {
     width: 100vw;
-    min-height: 65vh;
+    min-height: 25vh;
   }
   footer .container-one {
     width: 100%;
-    height: 213px;
+    height: 140px;
     position: relative;
   }
 
@@ -292,9 +303,6 @@ footer .container-one .copyright {
   body {
     width: 100vw;
   }
-  main {
-    width: 100%;
-  }
   .container {
     width: 100%;
     min-height: 65vh;
@@ -337,6 +345,11 @@ footer .container-one .copyright {
     text-align: center;
     padding-top: 10px;
   }
+  /*--"main" for tablets--*/
+
+  main {
+    width: 100%;
+  }
   main .players-collection {
     width: 100%;
     margin-left: 20px;
@@ -359,17 +372,17 @@ footer .container-one .copyright {
     font-size: 18px;
     line-height: 26px;
   }
-
   main .player-profile h3 {
     width: 185px;
     font-size: 26px;
     line-height: 34px;
   }
-
   main .player-profile img {
     width: 185px;
     height: 130px;
   }
+  /*--Footer starts here--*/
+
   footer {
     width: 100vw;
     min-height: 65vh;
@@ -379,7 +392,6 @@ footer .container-one .copyright {
     height: 213px;
     position: relative;
   }
-
   footer .images img {
     width: 43%;
     height: 92px;
