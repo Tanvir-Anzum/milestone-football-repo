@@ -145,7 +145,9 @@ footer .container-one .copyright{
   body{
     min-height: 100vh;
     width: 100vw;
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   header{
     width: 100vw;
@@ -159,6 +161,8 @@ footer .container-one .copyright{
     grid-template-columns: repeat(1,1fr);
     background-color: red;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
     }
   .left{
@@ -191,11 +195,11 @@ footer .container-one .copyright{
   a{
     margin-top: 30px;
   }
-  main,footer{
+  footer{
     display: none;
   }
 }
-  /*main .players-collection{
+  main .players-collection{
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 24px;
@@ -231,7 +235,7 @@ footer .container-one .copyright{
     display: none;
   }
 
-}*/
+
 
 /*--------------------------------
 
