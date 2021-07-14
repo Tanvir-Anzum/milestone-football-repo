@@ -180,8 +180,37 @@ footer .container-one .copyright{
   a{
     margin-top: 30px;
   }
-  main{
-    display: none;
+  main .players-collection{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 24px;
+    place-content: center;
+  }
+  main .player-profile{
+    width: 300px;
+    height: 426px;
+    padding: 15px;
+    margin: 15px;
+    
+    box-shadow: none;
+   
+  }
+    main .player-profile p{
+      width: 300px;
+    
+      font-size: 16px;
+      line-height: 26px;
+    }
+    
+  main .player-profile h3{
+      width: 300px;
+      font-size: 28px;
+      line-height: 40px;
+    }
+    
+  main .player-profile img{
+    width: 300px;
+    height: 256px;
   }
   footer{
     display: none;
