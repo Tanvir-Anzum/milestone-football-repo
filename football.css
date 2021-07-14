@@ -132,5 +132,59 @@ footer .container-one .copyright{
   position: absolute;
   top: 182px;
   left: 598.94px;
+}
+/*---media screen---*/
+/*---mobile---*/
+
+@media only screen and (max-width:688px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header .change .container{
+    width: 360px;
+    height: 695px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .left{
+    left: 10px;
+    top: 0px;
+  }
+  .left h2{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-top: 112px;
+  }
   
+  .right{
+     width: 329px;
+    height: 259.17px;
+  }
+  .right img{
+    margin-left: 15px;
+    padding: 0;
+    width: 329px;
+    height: 259.17px;
+    left: 0px;
+    top: 374px;
+    
+  }
+  a{
+    margin-top: 30px;
+  }
+  main{
+    display: none;
+  }
+  footer{
+    display: none;
+  }
+
 }
